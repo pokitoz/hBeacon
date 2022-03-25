@@ -448,6 +448,91 @@ IPC Nominal Density</description>
 </package>
 </packages>
 </library>
+<library name="nrf52833_qiaa">
+<description>Imported from Altium Designer&amp;reg; library: nrf52833_qiaa.IntLib</description>
+<packages>
+<package name="AQFN50P700X700X85_HS-74N">
+<circle x="-4.44" y="2.75" radius="0.125" width="0.25" layer="21"/>
+<circle x="-2.499996875" y="2.5" radius="0.372546875" width="0.1" layer="51"/>
+<smd name="A22" x="2.250003125" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A8" x="-1.25" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A10" x="-0.75" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A12" x="-0.25" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A14" x="0.250003125" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A16" x="0.75" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A18" x="1.25" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A20" x="1.750003125" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="A23" x="2.750003125" y="3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B1" x="-3.25" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B3" x="-2.5" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B5" x="-2" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B7" x="-1.5" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B9" x="-0.999996875" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B11" x="-0.5" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B13" x="0" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B15" x="0.5" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B17" x="1" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B19" x="1.500003125" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="B24" x="3.25" y="2.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="D23" x="2.750003125" y="2" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="C1" x="-3.25" y="2.249996875" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="D2" x="-2.75" y="2" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="E24" x="3.25" y="1.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="F2" x="-2.75" y="1.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="F23" x="2.750003125" y="1.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="G1" x="-3.25" y="1.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="H2" x="-2.75" y="0.999996875" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="H23" x="2.750003125" y="0.999996875" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="J1" x="-3.25" y="0.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="J24" x="3.25" y="0.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="K2" x="-2.75" y="0.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="L1" x="-3.25" y="0.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="L24" x="3.25" y="0.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="M2" x="-2.75" y="0" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="N1" x="-3.25" y="-0.250003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="N24" x="3.25" y="-0.250003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="P2" x="-2.75" y="-0.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="P23" x="2.750003125" y="-0.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="R1" x="-3.25" y="-0.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="R24" x="3.25" y="-0.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="T2" x="-2.75" y="-1" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="T23" x="2.750003125" y="-1" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="U1" x="-3.25" y="-1.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="U24" x="3.25" y="-1.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="V23" x="2.750003125" y="-1.500003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="W1" x="-3.25" y="-1.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="W24" x="3.25" y="-1.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="Y2" x="-2.75" y="-2" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="Y23" x="2.750003125" y="-2" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AA24" x="3.25" y="-2.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AB2" x="-2.75" y="-2.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC5" x="-2" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC9" x="-0.999996875" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC11" x="-0.5" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC13" x="0" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC15" x="0.5" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC17" x="1" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC19" x="1.500003125" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC21" x="2" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AC24" x="3.25" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD2" x="-2.75" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD4" x="-2.249996875" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD6" x="-1.75" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD8" x="-1.25" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD10" x="-0.75" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD12" x="-0.25" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD14" x="0.250003125" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD16" x="0.75" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD18" x="1.25" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD20" x="1.750003125" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD22" x="2.25" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="AD23" x="2.750003125" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
+<smd name="74" x="0" y="0" dx="4.85" dy="4.85" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -721,28 +806,51 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.11" y="26.05" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="7.34" y="22.84" size="1.27" layer="27" align="center"/>
 </element>
+<element name="U1" library="nrf52833_qiaa" package="AQFN50P700X700X85_HS-74N" value="nRF52833-QIAA" x="-1.56" y="-3.59" smashed="yes">
+<attribute name="ASSEMBLY" value="" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="FOOTPRINT_DOC" value="AQFN-73" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="LATESTREVISIONDATE" value="2018-12-03" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Nordic Semiconductor" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="nRF52833-QIAA" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-1.56" y="-3.59" size="1.27" layer="25" font="vector"/>
+<attribute name="NOTE" value="*" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="nRF52833-QIAA" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_COUNT" value="73" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="PUBLISHED" value="2018-12-03" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="PUBLISHER" value="Nordic Semiconductor" x="-1.56" y="-3.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-1.56" y="-5.114" size="1.27" layer="27" font="vector"/>
+</element>
 </elements>
 <signals>
 <signal name="ANT">
 <contactref element="IC1" pad="13"/>
+<contactref element="U1" pad="H23"/>
+<wire x1="1.190003125" y1="-2.590003125" x2="18.507" y2="11.12" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="P0.19_TX">
+<signal name="P0.06_TX">
 <contactref element="J100" pad="8"/>
+<contactref element="U1" pad="L1"/>
+<wire x1="-4.81" y1="-3.34" x2="1.78" y2="12.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P0.21_LED">
 <contactref element="R5" pad="1"/>
+<contactref element="U1" pad="AC17"/>
+<wire x1="-0.56" y1="-6.340003125" x2="9.01" y2="8.6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="P0.20_RX">
+<signal name="P0.07_RX">
 <contactref element="J100" pad="7"/>
-</signal>
-<signal name="AC31/RESET">
-<contactref element="J100" pad="10"/>
+<contactref element="U1" pad="M2"/>
+<wire x1="-4.31" y1="-3.59" x2="5.68" y2="12.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDCLK">
 <contactref element="J100" pad="4"/>
+<contactref element="U1" pad="AA24"/>
+<wire x1="1.69" y1="-5.84" x2="1.78" y2="9.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="J100" pad="2"/>
+<contactref element="U1" pad="AC24"/>
+<wire x1="1.69" y1="-6.340003125" x2="1.78" y2="8.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_P3V3">
 <contactref element="J100" pad="1"/>
@@ -869,18 +977,26 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="X1" pad="3"/>
 <contactref element="C1" pad="1"/>
+<contactref element="U1" pad="A23"/>
 <wire x1="18.095" y1="16.995" x2="18" y2="18.56" width="0" layer="19" extent="1-1"/>
+<wire x1="1.190003125" y1="-0.34" x2="18.095" y2="16.995" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="X1" pad="1"/>
 <contactref element="C5" pad="1"/>
+<contactref element="U1" pad="B24"/>
 <wire x1="17.52" y1="12.73" x2="19.245" y2="15.545" width="0" layer="19" extent="1-1"/>
+<wire x1="1.69" y1="-0.84" x2="17.52" y2="12.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="X2" pad="1"/>
+<contactref element="U1" pad="D2"/>
+<wire x1="-4.31" y1="-1.59" x2="8.33" y2="12.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$39">
 <contactref element="X2" pad="2"/>
+<contactref element="U1" pad="F2"/>
+<wire x1="-4.31" y1="-2.09" x2="8.33" y2="9.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="L3" pad="2"/>
@@ -891,12 +1007,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="ANT_SEL_V1">
 <contactref element="IC1" pad="7"/>
+<contactref element="U1" pad="U24"/>
+<wire x1="1.69" y1="-4.84" x2="20.413" y2="11.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANT_SEL_V2">
 <contactref element="IC1" pad="6"/>
+<contactref element="U1" pad="R24"/>
+<wire x1="1.69" y1="-4.34" x2="20.413" y2="11.12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANT_SEL_V3">
 <contactref element="IC1" pad="5"/>
+<contactref element="U1" pad="P23"/>
+<wire x1="1.190003125" y1="-4.09" x2="20.413" y2="10.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANT_OUT_RF1">
 <contactref element="IC1" pad="3"/>
@@ -990,6 +1112,54 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$56">
 <via x="25.5" y="22.37" extent="1-16" drill="0.4"/>
+</signal>
+<signal name="VSS">
+<contactref element="U1" pad="74"/>
+<contactref element="U1" pad="B7"/>
+<wire x1="-3.06" y1="-0.84" x2="-1.56" y2="-3.59" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD">
+<contactref element="U1" pad="AD14"/>
+<contactref element="U1" pad="AD23"/>
+<contactref element="U1" pad="B1"/>
+<contactref element="U1" pad="A22"/>
+<contactref element="U1" pad="W1"/>
+<wire x1="-1.309996875" y1="-6.84" x2="-4.81" y2="-5.340003125" width="0" layer="19" extent="1-1"/>
+<wire x1="1.190003125" y1="-6.84" x2="-1.309996875" y2="-6.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.81" y1="-0.84" x2="-4.81" y2="-5.340003125" width="0" layer="19" extent="1-1"/>
+<wire x1="0.690003125" y1="-0.34" x2="-4.81" y2="-0.84" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DEC5">
+<contactref element="U1" pad="N24"/>
+</signal>
+<signal name="DECUSB">
+<contactref element="U1" pad="AC5"/>
+</signal>
+<signal name="VBUS">
+<contactref element="U1" pad="AD2"/>
+</signal>
+<signal name="VDDH">
+<contactref element="U1" pad="Y2"/>
+</signal>
+<signal name="DEC4">
+<contactref element="U1" pad="B5"/>
+</signal>
+<signal name="DEC3">
+<contactref element="U1" pad="D23"/>
+</signal>
+<signal name="DEC6">
+<contactref element="U1" pad="E24"/>
+</signal>
+<signal name="VSS_PA">
+<contactref element="U1" pad="F23"/>
+</signal>
+<signal name="RESET">
+<contactref element="U1" pad="AC13"/>
+<contactref element="J100" pad="10"/>
+<wire x1="-1.56" y1="-6.340003125" x2="1.78" y2="13.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DEC1">
+<contactref element="U1" pad="C1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
