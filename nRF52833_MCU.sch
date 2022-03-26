@@ -3918,16 +3918,16 @@ source (Solar,..)</text>
 <attribute name="NAME" x="136.144" y="71.501" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="68.961" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="A" x="127" y="109.22" smashed="yes">
-<attribute name="NAME" x="124.18138125" y="115.799990625" size="2.08351875" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="123.52245" y="113.07551875" size="2.08573125" layer="96" ratio="10" rot="SR0"/>
+<instance part="L1" gate="A" x="101.6" y="106.68" smashed="yes">
+<attribute name="NAME" x="98.78138125" y="113.259990625" size="2.08351875" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="98.12245" y="110.53551875" size="2.08573125" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="GND26" gate="1" x="142.24" y="99.06" smashed="yes">
-<attribute name="VALUE" x="139.7" y="96.52" size="1.778" layer="96"/>
+<instance part="GND26" gate="1" x="116.84" y="96.52" smashed="yes">
+<attribute name="VALUE" x="114.3" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="C14" gate="C$1" x="142.24" y="106.68" smashed="yes">
-<attribute name="NAME" x="146.304" y="104.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="146.304" y="101.981" size="1.778" layer="96"/>
+<instance part="C14" gate="C$1" x="116.84" y="104.14" smashed="yes">
+<attribute name="NAME" x="120.904" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.904" y="99.441" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="35.56" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.18488125" y="121.91266875" size="2.542440625" layer="95" rot="R180"/>
@@ -3946,8 +3946,8 @@ source (Solar,..)</text>
 <instance part="GND8" gate="1" x="30.48" y="134.62" smashed="yes">
 <attribute name="VALUE" x="27.94" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="VDD_NRF9" gate="G$1" x="129.54" y="152.4" smashed="yes">
-<attribute name="VALUE" x="127.635" y="155.575" size="1.778" layer="96"/>
+<instance part="VDD_NRF9" gate="G$1" x="116.84" y="152.4" smashed="yes">
+<attribute name="VALUE" x="114.935" y="155.575" size="1.778" layer="96"/>
 </instance>
 <instance part="X3" gate="-1" x="152.4" y="147.32" smashed="yes">
 <attribute name="NAME" x="154.94" y="146.558" size="1.524" layer="95"/>
@@ -3979,9 +3979,9 @@ source (Solar,..)</text>
 <segment>
 <pinref part="VDD_NRF9" gate="G$1" pin="VCC"/>
 <pinref part="X3" gate="-2" pin="S"/>
-<wire x1="129.54" y1="149.86" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
-<label x="134.62" y="144.78" size="1.778" layer="95"/>
+<wire x1="116.84" y1="149.86" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
+<label x="124.46" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="VDD_NRF8" gate="G$1" pin="VCC"/>
@@ -4059,10 +4059,10 @@ source (Solar,..)</text>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="17.78" y1="48.26" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C23" gate="C$1" pin="2"/>
-<wire x1="22.86" y1="45.72" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="NC2"/>
-<wire x1="38.1" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
 <junction x="17.78" y="45.72"/>
 </segment>
 <segment>
@@ -4252,7 +4252,7 @@ source (Solar,..)</text>
 <label x="35.56" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="EXT_VBAT" class="0">
+<net name="BQ_EXT_VBAT" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VBAT"/>
 <wire x1="38.1" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
@@ -4262,16 +4262,6 @@ source (Solar,..)</text>
 <pinref part="J1" gate="G$1" pin="2"/>
 <label x="17.78" y="119.38" size="1.27" layer="95"/>
 <wire x1="30.48" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<label x="17.78" y="144.78" size="1.27" layer="95"/>
-<wire x1="30.48" y1="144.78" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
-<label x="134.62" y="147.32" size="1.778" layer="95"/>
-<pinref part="X3" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="BQ_VBAT_OK" class="0">
@@ -4296,8 +4286,8 @@ source (Solar,..)</text>
 </segment>
 <segment>
 <pinref part="L1" gate="A" pin="2"/>
-<wire x1="121.92" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
-<label x="114.3" y="109.22" size="1.27" layer="95"/>
+<wire x1="96.52" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
+<label x="88.9" y="106.68" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="BQ_VOUT" class="0">
@@ -4307,7 +4297,7 @@ source (Solar,..)</text>
 <label x="81.28" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="149.86" y="109.22" size="1.27" layer="95" xref="yes"/>
+<label x="124.46" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BQ_VSTOR" class="0">
@@ -4387,17 +4377,25 @@ source (Solar,..)</text>
 <segment>
 <pinref part="L1" gate="A" pin="1"/>
 <pinref part="C14" gate="C$1" pin="1"/>
-<wire x1="142.24" y1="109.22" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
-<junction x="142.24" y="109.22"/>
-<wire x1="149.86" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
-<junction x="142.24" y="109.22"/>
-<wire x1="142.24" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="144.78" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="142.24" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="106.68" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
+<junction x="116.84" y="106.68"/>
+<wire x1="124.46" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
+<junction x="116.84" y="106.68"/>
 <label x="124.46" y="142.24" size="1.778" layer="95"/>
 <pinref part="X3" gate="-3" pin="S"/>
+<wire x1="116.84" y1="142.24" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EXT_VBAT" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="144.78" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
+<label x="17.78" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X3" gate="-1" pin="S"/>
+<wire x1="149.86" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
+<label x="124.46" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
