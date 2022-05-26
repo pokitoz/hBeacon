@@ -4766,7 +4766,6 @@ source (Solar,..)</text>
 <pinref part="C31" gate="C$1" pin="1"/>
 <pinref part="ANT4" gate="G$1" pin="ANTENNA"/>
 <junction x="200.66" y="45.72"/>
-<pinref part="ANT4" gate="G$1" pin="ANTENNA"/>
 </segment>
 </net>
 </nets>

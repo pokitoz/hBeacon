@@ -189,9 +189,8 @@ Bluetooth Low Energy board</description>
 <rectangle x1="33.605" y1="-3.675" x2="38.605" y2="13.515" layer="42" rot="R90"/>
 <rectangle x1="33.605" y1="-3.675" x2="38.605" y2="13.515" layer="42" rot="R90"/>
 <rectangle x1="41.51" y1="14.36" x2="44.8" y2="16.09" layer="41"/>
-<rectangle x1="42.75" y1="16.1" x2="45.19" y2="16.74" layer="41"/>
 <rectangle x1="37.66" y1="11.57" x2="38.64" y2="14.72" layer="41"/>
-<rectangle x1="38.56" y1="11.57" x2="39.05" y2="13.67" layer="41"/>
+<rectangle x1="40.56" y1="18.49" x2="43.85" y2="20.22" layer="41"/>
 </plain>
 <libraries>
 <library name="Nordic_nRF">
@@ -1407,7 +1406,7 @@ design rules under a new name.</description>
 <contactref element="ANT1" pad="P$1"/>
 <wire x1="49.02996875" y1="15.50996875" x2="48.98" y2="15.51" width="0.1524" layer="1"/>
 <contactref element="C13" pad="1"/>
-<wire x1="43.93" y1="15.5" x2="49.02996875" y2="15.5" width="0.1524" layer="1"/>
+<wire x1="43.93" y1="15.5" x2="49.02996875" y2="15.5" width="0.7" layer="1"/>
 <wire x1="49.02996875" y1="15.5" x2="49.02996875" y2="15.50996875" width="0.1524" layer="1"/>
 <wire x1="48.98" y1="15.51" x2="49.19" y2="15.53" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1572,7 +1571,7 @@ design rules under a new name.</description>
 <via x="47.24" y="16.47" extent="1-16" drill="0.2"/>
 <via x="46.54" y="16.47" extent="1-16" drill="0.2"/>
 <via x="45.84" y="16.47" extent="1-16" drill="0.2"/>
-<wire x1="48.77" y1="29.85" x2="48.77" y2="30.55" width="0" layer="19" extent="1-1"/>
+<wire x1="48.77" y1="30.55" x2="48.77" y2="29.85" width="0" layer="19" extent="1-1"/>
 <wire x1="48.77" y1="29.15" x2="48.77" y2="29.85" width="0" layer="19" extent="1-1"/>
 <wire x1="48.77" y1="28.45" x2="48.77" y2="29.15" width="0" layer="19" extent="1-1"/>
 <wire x1="48.77" y1="27.75" x2="48.77" y2="28.45" width="0" layer="19" extent="1-1"/>
@@ -1996,7 +1995,7 @@ design rules under a new name.</description>
 <via x="46.27" y="19.93" extent="1-16" drill="0.35"/>
 <via x="11.56" y="17.98" extent="1-16" drill="0.35"/>
 <via x="31.77" y="15.36" extent="1-16" drill="0.35"/>
-<via x="31.76" y="17.67" extent="1-16" drill="0.35"/>
+<via x="32.26" y="17.48" extent="1-16" drill="0.35"/>
 <via x="34.51" y="17.62" extent="1-16" drill="0.35"/>
 <via x="34.52" y="15.36" extent="1-16" drill="0.35"/>
 <via x="33.04" y="16.65" extent="1-16" drill="0.35"/>
@@ -2014,7 +2013,7 @@ design rules under a new name.</description>
 <via x="46.46" y="11.77" extent="1-16" drill="0.35"/>
 <wire x1="39.2" y1="7.92" x2="39.89" y2="8.8" width="0.1524" layer="1"/>
 <wire x1="44.25" y1="27.07" x2="44.59" y2="26.37" width="0.1524" layer="1"/>
-<wire x1="31.76" y1="17.67" x2="32.2725" y2="17.4575" width="0" layer="19" extent="1-1"/>
+<wire x1="32.26" y1="17.48" x2="32.2725" y2="17.4575" width="0" layer="19" extent="1-1"/>
 <wire x1="14.83" y1="13.82" x2="14.83" y2="12.57" width="0" layer="19" extent="1-1"/>
 <wire x1="14.83" y1="10.32" x2="14.83" y2="11.57" width="0" layer="19" extent="1-1"/>
 <wire x1="10.24" y1="11.34" x2="10.15" y2="12.59" width="0" layer="19" extent="1-1"/>
@@ -2111,9 +2110,9 @@ design rules under a new name.</description>
 <wire x1="45.15" y1="27.04" x2="45.85" y2="27.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
-<via x="48.76" y="31.26" extent="1-16" drill="0.2"/>
-<via x="48.76" y="31.96" extent="1-16" drill="0.2"/>
-<wire x1="48.76" y1="31.96" x2="48.76" y2="31.26" width="0" layer="19" extent="1-1"/>
+<via x="48.77" y="31.3" extent="1-16" drill="0.2"/>
+<via x="48.77" y="32.01" extent="1-16" drill="0.2"/>
+<wire x1="48.77" y1="32.01" x2="48.77" y2="31.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="L5" pad="2"/>
@@ -2129,12 +2128,12 @@ design rules under a new name.</description>
 <wire x1="38.1" y1="7.6362" x2="38.1" y2="7.92" width="0.1524" layer="1"/>
 <wire x1="38.1" y1="7.92" x2="38.1" y2="5.08" width="0.1524" layer="1"/>
 <wire x1="38.1" y1="5.08" x2="37.92" y2="4.9" width="0.1524" layer="1"/>
-<via x="38.71" y="11.5" extent="1-16" drill="0.2" alwaysstop="yes"/>
+<via x="38.71" y="11.49" extent="1-16" drill="0.2" alwaysstop="yes"/>
 <wire x1="38.13" y1="12.08" x2="38.13" y2="11.0464625" width="0.1524" layer="1"/>
 <wire x1="38.1256125" y1="11.042075" x2="38.1256125" y2="7.9456125" width="0.1524" layer="1"/>
 <wire x1="38.1" y1="7.92" x2="38.1256125" y2="7.9456125" width="0.1524" layer="1"/>
 <wire x1="38.13" y1="11.0464625" x2="38.1256125" y2="11.042075" width="0.1524" layer="1"/>
-<wire x1="38.13" y1="12.08" x2="38.71" y2="11.5" width="0" layer="19" extent="1-1"/>
+<wire x1="38.13" y1="12.08" x2="38.71" y2="11.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="L7" pad="2"/>
