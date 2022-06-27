@@ -3467,6 +3467,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="L7" library="Nordic_misc" deviceset="INDUCTOR" device="_0402_N" value="2.2nH"/>
 <part name="C30" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="0.7pF"/>
 <part name="C31" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="N.C."/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3511,9 +3513,9 @@ Switch Spacing </text>
 <attribute name="NAME" x="148.336" y="149.479" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="148.336" y="146.939" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X2" gate="X$1" x="25.4" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.32" y="145.796" size="1.778" layer="95"/>
-<attribute name="VALUE" x="20.32" y="143.51" size="1.778" layer="96"/>
+<instance part="X2" gate="X$1" x="33.02" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="26.924" y="132.08" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="29.21" y="127" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J100" gate="G$1" x="154.94" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="154.94" y="69.088" size="1.27" layer="95" rot="MR0"/>
@@ -3533,8 +3535,8 @@ Switch Spacing </text>
 <attribute name="NAME" x="108.458" y="86.36" size="1.27" layer="95"/>
 </instance>
 <instance part="C2" gate="C$1" x="10.16" y="132.08" smashed="yes">
-<attribute name="NAME" x="14.224" y="127.381" size="1.778" layer="95"/>
-<attribute name="VALUE" x="14.224" y="124.841" size="1.778" layer="96"/>
+<attribute name="NAME" x="7.239" y="128.524" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="7.239" y="133.604" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND1" gate="1" x="10.16" y="121.92" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="12.7" y="119.38" size="1.778" layer="96" rot="MR0"/>
@@ -3615,17 +3617,23 @@ Switch Spacing </text>
 <instance part="VDD_NRF14" gate="G$1" x="243.84" y="152.4" smashed="yes" rot="R270">
 <attribute name="VALUE" x="247.015" y="154.305" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C15" gate="C$1" x="15.24" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.224" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="14.224" y="132.461" size="1.778" layer="96"/>
+<instance part="C15" gate="C$1" x="33.02" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.719" y="125.984" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="40.259" y="125.984" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C16" gate="C$1" x="33.02" y="139.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.464" y="135.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="29.464" y="132.461" size="1.778" layer="96"/>
+<instance part="C16" gate="C$1" x="20.32" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.621" y="138.176" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="13.081" y="138.176" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="TP11" gate="G$1" x="45.72" y="63.5" smashed="yes">
 <attribute name="NAME" x="44.45" y="64.77" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="46.99" y="62.23" size="1.778" layer="97"/>
+</instance>
+<instance part="GND18" gate="1" x="33.02" y="121.92" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="35.56" y="119.38" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND23" gate="1" x="20.32" y="129.54" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="22.86" y="129.54" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -3702,8 +3710,10 @@ Switch Spacing </text>
 </net>
 <net name="P0.06_TX" class="0">
 <segment>
-<label x="40.64" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="43.18" y1="124.46" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
+<label x="33.02" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="43.18" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="124.46" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="P0.06"/>
 </segment>
 <segment>
@@ -3714,8 +3724,10 @@ Switch Spacing </text>
 </net>
 <net name="P0.07_RX" class="0">
 <segment>
-<label x="40.64" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="33.02" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="43.18" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="121.92" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="P0.07"/>
 </segment>
 <segment>
@@ -3759,23 +3771,6 @@ Switch Spacing </text>
 <wire x1="149.86" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
 <junction x="142.24" y="154.94"/>
 <label x="127" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="XL1" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="P0.00/XL1"/>
-<wire x1="43.18" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
-<label x="35.56" y="139.7" size="1.778" layer="95"/>
-<pinref part="C16" gate="C$1" pin="1"/>
-</segment>
-</net>
-<net name="XL2" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="P0.01/XL2"/>
-<wire x1="12.7" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
-<label x="35.56" y="137.16" size="1.778" layer="95"/>
-<pinref part="C15" gate="C$1" pin="1"/>
-<wire x1="12.7" y1="137.16" x2="12.7" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -3947,6 +3942,14 @@ Switch Spacing </text>
 <pinref part="C2" gate="C$1" pin="2"/>
 <wire x1="10.16" y1="124.46" x2="10.16" y2="127" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="C15" gate="C$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="C16" gate="C$1" pin="1"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
@@ -3959,12 +3962,10 @@ Switch Spacing </text>
 <segment>
 <pinref part="X2" gate="X$1" pin="1"/>
 <pinref part="C16" gate="C$1" pin="2"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="X2" gate="X$1" pin="2"/>
-<pinref part="C15" gate="C$1" pin="2"/>
+<wire x1="20.32" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="P0.00/XL1"/>
+<wire x1="20.32" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<junction x="20.32" y="139.7"/>
 </segment>
 </net>
 <net name="BQ_NEN" class="0">
@@ -3982,6 +3983,17 @@ Switch Spacing </text>
 <wire x1="63.5" y1="81.28" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 <label x="45.72" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="X2" gate="X$1" pin="2"/>
+<pinref part="C15" gate="C$1" pin="2"/>
+<pinref part="U1" gate="A" pin="P0.01/XL2"/>
+<wire x1="38.1" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="137.16" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<junction x="33.02" y="132.08"/>
 </segment>
 </net>
 </nets>
