@@ -2221,10 +2221,10 @@ Switch Spacing </text>
 <net name="P0.07_RX" class="0">
 <segment>
 <label x="33.02" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="43.18" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="121.92" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="119.38" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="P0.07"/>
+<pinref part="U1" gate="A" pin="P0.08"/>
+<wire x1="43.18" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="162.56" y="58.42" size="1.27" layer="95" xref="yes"/>
@@ -2284,23 +2284,23 @@ Switch Spacing </text>
 </net>
 <net name="ANT_SEL_V1" class="0">
 <segment>
-<wire x1="121.92" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
-<label x="139.7" y="116.84" size="1.778" layer="95" rot="R180"/>
-<pinref part="U1" gate="A" pin="P1.04"/>
+<label x="142.24" y="111.76" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="P1.02"/>
+<wire x1="137.16" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT_SEL_V2" class="0">
 <segment>
-<wire x1="121.92" y1="119.38" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
-<label x="139.7" y="121.92" size="1.778" layer="95" rot="R180"/>
-<pinref part="U1" gate="A" pin="P1.06"/>
+<label x="142.24" y="116.84" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="P1.04"/>
+<wire x1="129.54" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT_SEL_V3" class="0">
 <segment>
-<wire x1="121.92" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
-<label x="139.7" y="124.46" size="1.778" layer="95" rot="R180"/>
-<pinref part="U1" gate="A" pin="P1.07"/>
+<label x="142.24" y="121.92" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="P1.06"/>
+<wire x1="121.92" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -2810,7 +2810,6 @@ https://www.mouser.ch/ProductDetail/Qorvo/TQP4M0008?qs=z4bnopryTCJhKVxkPpcwfQ%3D
 <pinref part="C22" gate="C$1" pin="1"/>
 <pinref part="ANT4" gate="G$1" pin="FEED"/>
 <junction x="200.66" y="124.46"/>
-<pinref part="ANT4" gate="G$1" pin="FEED"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -2819,7 +2818,6 @@ https://www.mouser.ch/ProductDetail/Qorvo/TQP4M0008?qs=z4bnopryTCJhKVxkPpcwfQ%3D
 <pinref part="C31" gate="C$1" pin="1"/>
 <pinref part="ANT5" gate="G$1" pin="FEED"/>
 <junction x="200.66" y="86.36"/>
-<pinref part="ANT5" gate="G$1" pin="FEED"/>
 </segment>
 </net>
 <net name="GND" class="1">
