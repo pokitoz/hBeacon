@@ -1969,6 +1969,7 @@ Source: &lt;a href="https://www.johansontechnology.com/datasheets/2450AT18B100/2
 <part name="ANT1" library="2450AT18B100E" deviceset="2450AT18B100E" device=""/>
 <part name="ANT4" library="2450AT18B100E" deviceset="2450AT18B100E" device=""/>
 <part name="ANT5" library="2450AT18B100E" deviceset="2450AT18B100E" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2131,6 +2132,9 @@ Switch Spacing </text>
 <instance part="GND3" gate="1" x="165.1" y="111.76" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="167.64" y="109.22" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="GND18" gate="1" x="73.66" y="165.1" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="76.2" y="162.56" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2276,10 +2280,10 @@ Switch Spacing </text>
 <label x="213.36" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="P0.17"/>
-<wire x1="45.72" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="55.88" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 <label x="45.72" y="55.88" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="D-"/>
+<wire x1="63.5" y1="81.28" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANT_SEL_V1" class="0">
@@ -2305,15 +2309,15 @@ Switch Spacing </text>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="P0.18/RESET"/>
-<label x="45.72" y="53.34" size="1.778" layer="95"/>
-<wire x1="45.72" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="53.34" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J100" gate="G$1" pin="10"/>
 <wire x1="139.7" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
 <label x="124.46" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="P0.18/RESET"/>
+<wire x1="81.28" y1="81.28" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
+<label x="71.12" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DEC1" class="0">
@@ -2392,7 +2396,7 @@ Switch Spacing </text>
 <junction x="33.02" y="132.08"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="C6" gate="C$1" pin="2"/>
 <wire x1="10.16" y1="93.98" x2="10.16" y2="96.52" width="0.1524" layer="91"/>
@@ -2410,13 +2414,6 @@ Switch Spacing </text>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C15" gate="C$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="C3" gate="C$1" pin="2"/>
-<wire x1="43.18" y1="157.48" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="VSS@1"/>
-<wire x1="43.18" y1="160.02" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -2473,6 +2470,20 @@ Switch Spacing </text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="165.1" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 <junction x="165.1" y="114.3"/>
+</segment>
+<segment>
+<pinref part="C3" gate="C$1" pin="2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="43.18" y1="160.02" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="VSS@1"/>
+<wire x1="43.18" y1="160.02" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
+<junction x="43.18" y="160.02"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="VSS@2"/>
+<wire x1="68.58" y1="160.02" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 </net>
 </nets>
@@ -2820,7 +2831,7 @@ https://www.mouser.ch/ProductDetail/Qorvo/TQP4M0008?qs=z4bnopryTCJhKVxkPpcwfQ%3D
 <junction x="200.66" y="86.36"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="C18" gate="C$1" pin="2"/>
