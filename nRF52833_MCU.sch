@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,28 +45,28 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="39" name="tKeepout" color="26" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="13" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="5" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -171,12 +171,12 @@ Product Page &lt;a href="http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom
 &lt;b&gt;Description:&lt;/b&gt;&lt;br&gt;
 Bluetooth Low Energy board</description>
 <libraries>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="A4L-LOC">
+<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
@@ -201,7 +201,7 @@ Bluetooth Low Energy board</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A4, landscape with location and doc. field</description>
 <gates>
@@ -1104,7 +1104,7 @@ IPC Nominal Density</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply2">
+<library name="supply2" urn="urn:adsk.eagle:library:372">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
 Please keep in mind, that these devices are necessary for the
@@ -1115,14 +1115,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <packages>
 </packages>
 <symbols>
-<symbol name="VCC">
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:26997/1" library_version="2">
 <circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
 <text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="VCC" prefix="SUPPLY">
+<deviceset name="VCC" urn="urn:adsk.eagle:component:27060/1" prefix="SUPPLY" library_version="2">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="VCC" x="0" y="0"/>
@@ -1137,7 +1137,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -1148,14 +1148,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <packages>
 </packages>
 <symbols>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -1353,9 +1353,18 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <smd name="AD20" x="1.750003125" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AD22" x="2.25" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AD23" x="2.750003125" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
-<smd name="74" x="0" y="0" dx="4.85" dy="4.85" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="0" y="-1.524" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<smd name="74" x="0" y="0.127" dx="4.699" dy="4.5466" layer="1" rot="R180"/>
+<text x="3.81" y="-1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="3.81" y="-2.794" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="P$1" x="-1.27" y="1.27" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$2" x="0" y="0" drill="0.2" diameter="0.4064"/>
+<pad name="P$3" x="0" y="1.27" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$4" x="1.27" y="1.27" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$5" x="-1.27" y="0" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$6" x="1.27" y="0" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$7" x="-1.27" y="-1.27" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$8" x="0" y="-1.27" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$9" x="1.27" y="-1.27" drill="0.2" diameter="0.4064" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -1595,7 +1604,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="A" pin="VDD@4" pad="A22"/>
 <connect gate="A" pin="VDD@5" pad="W1"/>
 <connect gate="A" pin="VDDH" pad="Y2"/>
-<connect gate="A" pin="VSS@1" pad="74"/>
+<connect gate="A" pin="VSS@1" pad="74 P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9"/>
 <connect gate="A" pin="VSS@2" pad="B7"/>
 <connect gate="A" pin="VSS_PA" pad="F23"/>
 <connect gate="A" pin="XC1" pad="B24"/>
@@ -1893,20 +1902,20 @@ Source: &lt;a href="https://www.johansontechnology.com/datasheets/2450AT18B100/2
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="1"/>
-<part name="FRAME2" library="frames" deviceset="A4L-LOC" device="" value="2"/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="1"/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="2"/>
 <part name="X1" library="Nordic_nRF" deviceset="XTAL_32MHZ" device="" value="32MHz"/>
 <part name="C1" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="12pF"/>
 <part name="C5" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="12pF"/>
 <part name="X2" library="Nordic_nRF" deviceset="XTAL_32KHZ" device="" value="32.768kHz"/>
 <part name="J100" library="Nordic_misc" deviceset="DEBUG_CONNECTOR" device=""/>
-<part name="VDD_NRF3" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
-<part name="VDD_NRF1" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="IC1" library="SamacSys_Parts" deviceset="SKY13415-485LF" device=""/>
 <part name="L3" library="Nordic_misc" deviceset="INDUCTOR" device="_0402_N" value="2.2nH"/>
 <part name="C10" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="0.7pF"/>
 <part name="C13" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="N.C."/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L4" library="Nordic_misc" deviceset="INDUCTOR" device="_0402_N" value="2.2nH"/>
 <part name="C20" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="0.7pF"/>
 <part name="C21" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="N.C."/>
@@ -1914,23 +1923,23 @@ Source: &lt;a href="https://www.johansontechnology.com/datasheets/2450AT18B100/2
 <part name="C2" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="100nF"/>
 <part name="C3" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="1.0uF"/>
 <part name="C4" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="1.0uF"/>
-<part name="VDD_NRF2" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="C6" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="4.7uF"/>
-<part name="VDD_NRF4" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="C7" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="100nF"/>
-<part name="VDD_NRF5" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="C8" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="100nF"/>
 <part name="C9" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="NC"/>
 <part name="C11" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="100pF"/>
-<part name="VDD_NRF6" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="C12" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="100nF"/>
-<part name="VDD_NRF8" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="J3" library="282834-2" deviceset="282834-2" device=""/>
-<part name="VDD_NRF9" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
 <part name="D1" library="Nordic_misc" deviceset="LED" device=""/>
 <part name="R5" library="Nordic_misc" deviceset="RESISTOR" device="_0402_N" value="330R"/>
-<part name="VDD_NRF14" library="supply2" deviceset="VCC" device="" value="VDD_P3V3"/>
+<part name="VDD_NRF14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="VDD_P3V3"/>
 <part name="C15" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="100nF"/>
 <part name="C16" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="100nF"/>
 <part name="ANT3" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="ANTENNA" device="" package3d_urn="urn:adsk.eagle:package:12928/1"/>
@@ -1943,33 +1952,33 @@ Source: &lt;a href="https://www.johansontechnology.com/datasheets/2450AT18B100/2
 <part name="C30" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="0.7pF"/>
 <part name="C31" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="N.C."/>
 <part name="C18" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="1.0pF"/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C32" library="Nordic_misc" deviceset="CAPACITOR" device="_0402_N" value="1.2pF"/>
-<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L8" library="Nordic_misc" deviceset="INDUCTOR" device="_0402_N" value="2.2nH"/>
 <part name="L9" library="Nordic_misc" deviceset="INDUCTOR" device="_0402_N" value="4.7nH"/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ANT2" library="2450AT18B100E" deviceset="2450AT18B100E" device=""/>
 <part name="ANT1" library="2450AT18B100E" deviceset="2450AT18B100E" device=""/>
 <part name="ANT4" library="2450AT18B100E" deviceset="2450AT18B100E" device=""/>
 <part name="ANT5" library="2450AT18B100E" deviceset="2450AT18B100E" device=""/>
-<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
