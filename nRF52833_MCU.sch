@@ -1177,23 +1177,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="SKY13415485LF">
 <description>&lt;b&gt;SKY13415-485LF-1&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-0.953" y="0.675" dx="0.395" dy="0.2" layer="1"/>
-<smd name="2" x="-0.953" y="0.225" dx="0.395" dy="0.2" layer="1"/>
-<smd name="3" x="-0.953" y="-0.225" dx="0.395" dy="0.2" layer="1"/>
-<smd name="4" x="-0.953" y="-0.675" dx="0.395" dy="0.2" layer="1"/>
-<smd name="5" x="-0.4" y="-0.953" dx="0.395" dy="0.2" layer="1" rot="R90"/>
-<smd name="6" x="0" y="-0.953" dx="0.395" dy="0.2" layer="1" rot="R90"/>
-<smd name="7" x="0.4" y="-0.953" dx="0.395" dy="0.2" layer="1" rot="R90"/>
-<smd name="8" x="0.953" y="-0.675" dx="0.395" dy="0.2" layer="1"/>
-<smd name="9" x="0.953" y="-0.225" dx="0.395" dy="0.2" layer="1"/>
-<smd name="10" x="0.953" y="0.225" dx="0.395" dy="0.2" layer="1"/>
-<smd name="11" x="0.953" y="0.675" dx="0.395" dy="0.2" layer="1"/>
-<smd name="12" x="0.4" y="0.953" dx="0.395" dy="0.2" layer="1" rot="R90"/>
-<smd name="13" x="0" y="0.953" dx="0.395" dy="0.2" layer="1" rot="R90"/>
-<smd name="14" x="-0.4" y="0.953" dx="0.395" dy="0.2" layer="1" rot="R90"/>
+<smd name="1" x="-0.953" y="0.675" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="2" x="-0.953" y="0.225" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="3" x="-0.953" y="-0.225" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="4" x="-0.953" y="-0.675" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="5" x="-0.4" y="-0.953" dx="0.395" dy="0.1905" layer="1" rot="R90"/>
+<smd name="6" x="0" y="-0.953" dx="0.395" dy="0.1905" layer="1" rot="R90"/>
+<smd name="7" x="0.4" y="-0.953" dx="0.395" dy="0.1905" layer="1" rot="R90"/>
+<smd name="8" x="0.953" y="-0.675" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="9" x="0.953" y="-0.225" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="10" x="0.953" y="0.225" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="11" x="0.953" y="0.675" dx="0.395" dy="0.1905" layer="1"/>
+<smd name="12" x="0.4" y="0.953" dx="0.395" dy="0.1905" layer="1" rot="R90"/>
+<smd name="13" x="0" y="0.953" dx="0.395" dy="0.1905" layer="1" rot="R90"/>
+<smd name="14" x="-0.4" y="0.953" dx="0.395" dy="0.1905" layer="1" rot="R90"/>
 <smd name="15" x="0" y="0" dx="1" dy="1" layer="1" rot="R90"/>
-<text x="-0.125" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.125" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="6.225" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="6.225" y="1.27" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
@@ -1202,9 +1202,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="2.151" y1="2.151" x2="2.151" y2="-2.151" width="0.1" layer="51"/>
 <wire x1="2.151" y1="-2.151" x2="-2.4" y2="-2.151" width="0.1" layer="51"/>
 <wire x1="-2.4" y1="-2.151" x2="-2.4" y2="2.151" width="0.1" layer="51"/>
-<wire x1="-1.3" y1="0.7" x2="-1.3" y2="0.7" width="0.1" layer="21"/>
 <wire x1="-1.3" y1="0.7" x2="-1.4" y2="0.7" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="0.7" width="0.1" layer="21"/>
 <wire x1="-1.4" y1="0.7" x2="-1.3" y2="0.7" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
@@ -1306,7 +1304,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <smd name="E24" x="3.25" y="1.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="F2" x="-2.75" y="1.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="F23" x="2.750003125" y="1.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
-<smd name="G1" x="-3.25" y="1.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="H2" x="-2.75" y="0.999996875" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="H23" x="2.750003125" y="0.999996875" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="J1" x="-3.25" y="0.75" dx="0.275" dy="0.275" layer="1" roundness="100"/>
@@ -1332,16 +1329,12 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <smd name="Y23" x="2.750003125" y="-2" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AA24" x="3.25" y="-2.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AB2" x="-2.75" y="-2.5" dx="0.275" dy="0.275" layer="1" roundness="100"/>
-<smd name="AC5" x="-2" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
-<smd name="AC9" x="-0.999996875" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
-<smd name="AC11" x="-0.5" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AC13" x="0" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AC15" x="0.5" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AC17" x="1" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AC19" x="1.500003125" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AC21" x="2" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AC24" x="3.25" y="-2.750003125" dx="0.275" dy="0.275" layer="1" roundness="100"/>
-<smd name="AD2" x="-2.75" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AD4" x="-2.249996875" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AD6" x="-1.75" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AD8" x="-1.25" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
@@ -1353,18 +1346,25 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <smd name="AD20" x="1.750003125" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AD22" x="2.25" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="AD23" x="2.750003125" y="-3.25" dx="0.275" dy="0.275" layer="1" roundness="100"/>
-<smd name="74" x="0" y="0.127" dx="4.699" dy="4.5466" layer="1" rot="R180"/>
+<smd name="74" x="0" y="0" dx="4.699" dy="4.5466" layer="1" rot="R180"/>
 <text x="3.81" y="-1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="3.81" y="-2.794" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<pad name="P$1" x="-1.27" y="1.27" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$2" x="0" y="0" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$3" x="0" y="1.27" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$4" x="1.27" y="1.27" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$5" x="-1.27" y="0" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$6" x="1.27" y="0" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$7" x="-1.27" y="-1.27" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$8" x="0" y="-1.27" drill="0.2" diameter="0.4064" thermals="no"/>
-<pad name="P$9" x="1.27" y="-1.27" drill="0.2" diameter="0.4064" thermals="no"/>
+<pad name="P$1" x="-1.778" y="1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$2" x="-0.635" y="-0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$3" x="-0.635" y="1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$4" x="0.635" y="1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$5" x="-1.778" y="-0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$10" x="-1.778" y="-1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$11" x="-0.635" y="-1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$12" x="0.635" y="-1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$13" x="1.778" y="-1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$14" x="0.635" y="-0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$15" x="1.778" y="-0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$16" x="1.778" y="1.524" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$17" x="-1.778" y="0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$18" x="-0.635" y="0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$19" x="0.635" y="0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
+<pad name="P$20" x="1.778" y="0.508" locked="yes" drill="0.3" diameter="0.4064" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -1427,11 +1427,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="0" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="94"/>
 <pin name="P0.11" x="-7.62" y="22.86"/>
 <wire x1="0" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="94"/>
-<pin name="P0.16" x="25.4" y="-7.62" rot="R90"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="0" width="0.1524" layer="94"/>
 <pin name="P0.15" x="22.86" y="-7.62" rot="R90"/>
 <wire x1="22.86" y1="0" x2="22.86" y2="0" width="0.1524" layer="94"/>
-<pin name="P0.14" x="20.32" y="-7.62" rot="R90"/>
 <wire x1="20.32" y1="0" x2="20.32" y2="0" width="0.1524" layer="94"/>
 <pin name="P0.13" x="17.78" y="-7.62" rot="R90"/>
 <wire x1="17.78" y1="0" x2="17.78" y2="0" width="0.1524" layer="94"/>
@@ -1449,7 +1447,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="0" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="94"/>
 <pin name="P0.27" x="-7.62" y="43.18"/>
 <wire x1="0" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="94"/>
-<pin name="P0.26" x="-7.62" y="45.72"/>
 <wire x1="0" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="94"/>
 <pin name="P1.00" x="53.34" y="-7.62" rot="R90"/>
 <wire x1="53.34" y1="0" x2="53.34" y2="0" width="0.1524" layer="94"/>
@@ -1469,9 +1466,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="38.1" y1="0" x2="38.1" y2="0" width="0.1524" layer="94"/>
 <pin name="D+" x="15.24" y="-7.62" rot="R90"/>
 <wire x1="15.24" y1="0" x2="15.24" y2="0" width="0.1524" layer="94"/>
-<pin name="DECUSB" x="-7.62" y="10.16" direction="pwr"/>
 <wire x1="0" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="94"/>
-<pin name="VBUS" x="10.16" y="-7.62" direction="pwr" rot="R90"/>
 <wire x1="10.16" y1="0" x2="10.16" y2="0" width="0.1524" layer="94"/>
 <pin name="VDDH" x="-7.62" y="15.24" direction="pwr"/>
 <wire x1="0" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="94"/>
@@ -1544,7 +1539,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="A" pin="DEC4" pad="B5"/>
 <connect gate="A" pin="DEC5" pad="N24"/>
 <connect gate="A" pin="DEC6" pad="E24"/>
-<connect gate="A" pin="DECUSB" pad="AC5"/>
 <connect gate="A" pin="N.C.@1" pad="A18"/>
 <connect gate="A" pin="N.C.@2" pad="B19"/>
 <connect gate="A" pin="N.C.@3" pad="T23"/>
@@ -1567,9 +1561,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="A" pin="P0.11" pad="T2"/>
 <connect gate="A" pin="P0.12" pad="U1"/>
 <connect gate="A" pin="P0.13" pad="AD8"/>
-<connect gate="A" pin="P0.14" pad="AC9"/>
 <connect gate="A" pin="P0.15" pad="AD10"/>
-<connect gate="A" pin="P0.16" pad="AC11"/>
 <connect gate="A" pin="P0.17" pad="AD12"/>
 <connect gate="A" pin="P0.18/RESET" pad="AC13"/>
 <connect gate="A" pin="P0.19" pad="A14"/>
@@ -1579,7 +1571,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="A" pin="P0.23" pad="B17"/>
 <connect gate="A" pin="P0.24" pad="AD20"/>
 <connect gate="A" pin="P0.25" pad="A20"/>
-<connect gate="A" pin="P0.26" pad="G1"/>
 <connect gate="A" pin="P0.27" pad="H2"/>
 <connect gate="A" pin="P0.28/AIN4" pad="B11"/>
 <connect gate="A" pin="P0.29/AIN5" pad="A10"/>
@@ -1597,14 +1588,13 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="A" pin="P1.09" pad="R1"/>
 <connect gate="A" pin="SWDCLK" pad="AA24"/>
 <connect gate="A" pin="SWDIO" pad="AC24"/>
-<connect gate="A" pin="VBUS" pad="AD2"/>
 <connect gate="A" pin="VDD@1" pad="AD14"/>
 <connect gate="A" pin="VDD@2" pad="AD23"/>
 <connect gate="A" pin="VDD@3" pad="B1"/>
 <connect gate="A" pin="VDD@4" pad="A22"/>
 <connect gate="A" pin="VDD@5" pad="W1"/>
 <connect gate="A" pin="VDDH" pad="Y2"/>
-<connect gate="A" pin="VSS@1" pad="74 P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9"/>
+<connect gate="A" pin="VSS@1" pad="74 P$1 P$2 P$3 P$4 P$5 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20"/>
 <connect gate="A" pin="VSS@2" pad="B7"/>
 <connect gate="A" pin="VSS_PA" pad="F23"/>
 <connect gate="A" pin="XC1" pad="B24"/>
