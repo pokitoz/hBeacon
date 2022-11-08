@@ -1,0 +1,18 @@
+# List of component for harvesting energy
+
+Need to compare each components depending on:
+- Voltage minimal to start the device (Cold start Voltage)
+- Energy required to start the device (Cold Start Ah)
+- Voltage in minimal (Vin min) to work and harvest
+- Number of passive components needed (reduce cost, size of PCB)
+- Type of harvestor needed (Solar, Thermal, Piezo, air,..)
+- Additional features, like low voltage interrupt, configuration of interrupts,..
+
+## ePeas https://e-peas.com/
+Nice support for PCB design and doc with lots of advices
+
+Offers different type of harvestor depending on the needs:
+- Indoor light: AEM10941 https://www.youtube.com/watch?v=EiWNx8xFqOo with:
+  - Light Harvestor (photovoltaic cell) like KXOB25-12X1F-TR or Panasonic Amorton AM-1417CA-DGK-E
+  - Battery like 3.7V 120mAh Lithium Rechargeable or SuperCap like GS230F https://www.tecategroup.com/store/index.php?main_page=product_info&products_id=1320
+  - Eval kits: https://www.ccontrols.ch/ch_en/ek01leh3-6.html or 
